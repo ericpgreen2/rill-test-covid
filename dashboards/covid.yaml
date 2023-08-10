@@ -1,0 +1,36 @@
+# Visit https://docs.rilldata.com/references/project-files to learn more about Rill project files.
+
+title: "COVID metrics"
+description: "Explore the OWID COVID data"
+model: "owid_covid_data_model"
+timeseries: "date"
+measures:
+  - label: Total records
+    expression: count(*)
+    description: Total number of records present
+    format_preset: humanize
+dimensions:
+  - label: Iso_code
+    property: iso_code
+    description: ""
+  - label: Continent
+    property: continent
+    description: ""
+  - label: Location
+    property: location
+    description: ""
+  - label: Weekly_icu_admissions
+    property: weekly_icu_admissions
+    description: ""
+  - label: Weekly_icu_admissions_per_million
+    property: weekly_icu_admissions_per_million
+    description: ""
+  - label: Weekly_hosp_admissions
+    property: weekly_hosp_admissions
+    description: ""
+  - label: Weekly_hosp_admissions_per_million
+    property: weekly_hosp_admissions_per_million
+    description: ""
+  - label: Tests_units
+    property: tests_units
+    description: ""

@@ -1,0 +1,1 @@
+select * from owid_covid_data
