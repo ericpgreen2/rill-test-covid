@@ -1,4 +1,7 @@
 compiler: rill-beta
-rill_version: 
-
 name: dev-project
+
+mock_users:
+- email: ericpgreen2@gmail.com
+  admin: true
+- email: eric.green@rilldata.com
