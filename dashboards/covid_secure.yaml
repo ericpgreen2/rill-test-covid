@@ -16,5 +16,23 @@ dimensions:
   - label: Continent
     property: continent
     description: ""
+  - label: Location
+    property: location
+    description: ""
+  - label: Weekly_icu_admissions
+    property: weekly_icu_admissions
+    description: ""
+  - label: Weekly_icu_admissions_per_million
+    property: weekly_icu_admissions_per_million
+    description: ""
+  - label: Weekly_hosp_admissions
+    property: weekly_hosp_admissions
+    description: ""
+  - label: Weekly_hosp_admissions_per_million
+    property: weekly_hosp_admissions_per_million
+    description: ""
+  - label: Tests_units
+    property: tests_units
+    description: ""
 security:
   access: "{{ .user.admin }}"
