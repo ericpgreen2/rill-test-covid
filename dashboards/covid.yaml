@@ -5,6 +5,12 @@ description: "Explore the OWID COVID data"
 model: "owid_covid_data_model"
 timeseries: "date"
 measures:
+  - label: Sum of Weekly_hosp_admissions
+    expression: sum(weekly_hosp_admissions)
+    format_preset: humanize
+  - label: Sum of Weekly_icu_admissions
+    expression: sum(weekly_icu_admissions)
+    format_preset: humanize
   - label: Total records
     expression: count(*)
     description: Total number of records present
