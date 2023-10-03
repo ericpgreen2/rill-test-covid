@@ -4,6 +4,7 @@ title: "COVID metrics"
 description: "Explore the OWID COVID data"
 model: "owid_covid_data_model"
 timeseries: "date"
+default_time_range: "P4W"
 measures:
   - label: Sum of Weekly_hosp_admissions
     expression: sum(weekly_hosp_admissions)
