@@ -1,0 +1,14 @@
+kind: report
+title: My first report
+refresh:
+  cron: "* * * * *"
+query:
+  name: MetricsViewComparison
+  args:
+    metrics_view_name: covid
+export:
+  format: csv
+  limit: 100
+email:
+  recipients:
+    - ericpgreen2@gmail.com
