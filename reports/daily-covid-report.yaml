@@ -1,14 +1,13 @@
 kind: report
-title: My first report
+title: Daily COVID-19 Report
 refresh:
-  cron: "* * * * *"
+  cron: "15 9 * * *"
 query:
   name: MetricsViewComparison
   args:
     metrics_view_name: covid
 export:
   format: csv
-  limit: 100
 email:
   recipients:
     - ericpgreen2@gmail.com
