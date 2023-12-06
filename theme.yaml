@@ -1,0 +1,5 @@
+kind: theme
+
+colors:
+  primary: 006400 # dark green
+  secondary: ADD8E6 # pale blue
