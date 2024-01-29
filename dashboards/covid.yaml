@@ -6,41 +6,22 @@ model: "owid_covid_data_model"
 timeseries: "date"
 default_time_range: "P4W"
 measures:
-  - label: Sum of Weekly_hosp_admissions
-    expression: sum(weekly_hosp_admissions)
-    format_preset: humanize
-  - label: Sum of Weekly_icu_admissions
-    expression: sum(weekly_icu_admissions)
-    format_preset: humanize
+  - label: New vaccinations
+    expression: sum(new_vaccinations)
+  - label: New cases
+    expression: sum(new_cases)
+  - label: New deaths
+    expression: sum(new_deaths)
   - label: Total records
     expression: count(*)
     description: Total number of records present
-    format_preset: humanize
 dimensions:
-  - label: Iso_code
-    property: iso_code
-    description: ""
   - label: Continent
     property: continent
-    description: ""
   - label: Location
     property: location
-    description: ""
-  - label: Weekly_icu_admissions
-    property: weekly_icu_admissions
-    description: ""
-  - label: Weekly_icu_admissions_per_million
-    property: weekly_icu_admissions_per_million
-    description: ""
-  - label: Weekly_hosp_admissions
-    property: weekly_hosp_admissions
-    description: ""
-  - label: Weekly_hosp_admissions_per_million
-    property: weekly_hosp_admissions_per_million
-    description: ""
-  - label: Tests_units
-    property: tests_units
-    description: ""
+  - label: Iso_code
+    property: iso_code
 available_time_zones:
   - America/Los_Angeles
   - America/Chicago
