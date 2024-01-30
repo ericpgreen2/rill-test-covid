@@ -1,6 +1,6 @@
 # Visit https://docs.rilldata.com/references/project-files to learn more about Rill project files.
 
-title: "COVID metrics"
+title: "COVID metrics - no timeseries"
 description: "Explore the OWID COVID data"
 model: "owid_covid_data_model"
 timeseries: ""

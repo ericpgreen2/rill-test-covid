@@ -1,6 +1,6 @@
 # Visit https://docs.rilldata.com/reference/project-files to learn more about Rill project files.
 
-title: COVID - many measure formats
+title: COVID metrics - many measure formats
 description: Use this dashboard to test a bunch of types/formatters
 model: owid_covid_data_model
 timeseries: date
@@ -38,7 +38,7 @@ measures:
   - label: Total records
     expression: count(*)
     name: total_records_d3
-    description: Formatted d3 by 
+    description: Formatted d3 by
     format_d3: "$,.5f"
     valid_percent_of_total: true
 dimensions:
