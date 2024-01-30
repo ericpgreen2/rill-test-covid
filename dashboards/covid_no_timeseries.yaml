@@ -1,0 +1,28 @@
+# Visit https://docs.rilldata.com/references/project-files to learn more about Rill project files.
+
+title: "COVID metrics"
+description: "Explore the OWID COVID data"
+model: "owid_covid_data_model"
+timeseries: ""
+default_time_range: "P4W"
+measures:
+  - label: New vaccinations
+    expression: sum(new_vaccinations)
+  - label: New cases
+    expression: sum(new_cases)
+  - label: New deaths
+    expression: sum(new_deaths)
+  - label: Total records
+    expression: count(*)
+    description: Total number of records present
+dimensions:
+  - label: Continent
+    property: continent
+  - label: Location
+    property: location
+  - label: Iso_code
+    property: iso_code
+available_time_zones:
+  - America/Los_Angeles
+  - America/Chicago
+  - America/New_York
