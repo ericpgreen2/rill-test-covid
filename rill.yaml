@@ -5,3 +5,6 @@ mock_users:
 - email: ericpgreen2@gmail.com
   admin: true
 - email: eric.green@rilldata.com
+
+features:
+- cloudDataViewer
