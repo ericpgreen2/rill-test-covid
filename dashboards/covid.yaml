@@ -8,13 +8,17 @@ default_time_range: "P4W"
 measures:
   - label: New vaccinations
     expression: sum(new_vaccinations)
+    valid_percent_of_total: true
   - label: New cases
     expression: sum(new_cases)
+    valid_percent_of_total: true
   - label: New deaths
     expression: sum(new_deaths)
+    valid_percent_of_total: true
   - label: Total records
     expression: count(*)
     description: Total number of records present
+    valid_percent_of_total: true
 dimensions:
   - label: Continent
     property: continent
