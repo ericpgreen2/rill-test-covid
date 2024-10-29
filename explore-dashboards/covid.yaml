@@ -17,6 +17,3 @@ time_zones:
 
 defaults:
   time_range: "P4W"
-
-embeds:
-  hide_pivot: true
