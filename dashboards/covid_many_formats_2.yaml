@@ -3,7 +3,7 @@
 
 type: explore
 
-title: "COVID metrics dashboard"
+title: "COVID metrics dashboard - many formats"
 description: "Explore the OWID COVID data"
 metrics_view: covid_many_formats
 
