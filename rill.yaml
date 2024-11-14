@@ -8,3 +8,7 @@ mock_users:
 
 features:
 - cloudDataViewer
+
+connectors:
+- name: slack
+  type: slack
